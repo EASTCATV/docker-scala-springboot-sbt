@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/jars/spring-boot-starter-json-2.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/srcs/spring-boot-starter-json-2.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

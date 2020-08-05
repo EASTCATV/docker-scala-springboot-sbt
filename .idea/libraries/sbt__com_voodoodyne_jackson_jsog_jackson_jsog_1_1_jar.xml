@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.voodoodyne.jackson.jsog:jackson-jsog:1.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.voodoodyne.jackson.jsog/jackson-jsog/jars/jackson-jsog-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.voodoodyne.jackson.jsog/jackson-jsog/srcs/jackson-jsog-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

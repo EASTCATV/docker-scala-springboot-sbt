@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="docker-scala-springboot-sbt_2.11"
+		revision="1.0.1"
+		conf="tomcat"
+		confs="compile, runtime, test, provided, optional, container, tomcat, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20200805122854"/>
+	<dependencies>
+		<module organisation="com.github.jsimone" name="webapp-runner">
+			<revision name="8.5.9.0" status="release" pubdate="20170110000003" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsimone.github.com/webapp-runner" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache License, Version 2.0" url="https://github.com/jsimone/webapp-runner/blob/master/src/main/resources/license/header.txt"/>
+				<metadata-artifact status="no" details="" size="6235" time="0" location="/Users/yang/.ivy2/cache/com.github.jsimone/webapp-runner/ivy-8.5.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jsimone/webapp-runner/8.5.9.0/webapp-runner-8.5.9.0.pom"/>
+				<caller organisation="default" name="docker-scala-springboot-sbt_2.11" conf="tomcat" rev="8.5.9.0" rev-constraint-default="8.5.9.0" rev-constraint-dynamic="8.5.9.0" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="webapp-runner" type="jar" ext="jar" status="no" details="" size="10226783" time="0" location="/Users/yang/.ivy2/cache/com.github.jsimone/webapp-runner/jars/webapp-runner-8.5.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jsimone/webapp-runner/8.5.9.0/webapp-runner-8.5.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.kohlschutter.junixsocket:junixsocket-common:2.0.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.kohlschutter.junixsocket/junixsocket-common/jars/junixsocket-common-2.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.kohlschutter.junixsocket/junixsocket-common/srcs/junixsocket-common-2.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

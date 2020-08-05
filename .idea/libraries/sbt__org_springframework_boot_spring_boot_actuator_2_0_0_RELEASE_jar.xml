@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.springframework.boot:spring-boot-actuator:2.0.0.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.boot/spring-boot-actuator/jars/spring-boot-actuator-2.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.boot/spring-boot-actuator/srcs/spring-boot-actuator-2.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

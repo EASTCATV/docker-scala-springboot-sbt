@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.springframework:spring-messaging:4.1.9.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-messaging/jars/spring-messaging-4.1.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-messaging/srcs/spring-messaging-4.1.9.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

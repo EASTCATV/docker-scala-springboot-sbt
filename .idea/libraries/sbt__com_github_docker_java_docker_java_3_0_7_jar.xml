@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.docker-java:docker-java:3.0.7:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.docker-java/docker-java/jars/docker-java-3.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.docker-java/docker-java/srcs/docker-java-3.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.hibernate.validator:hibernate-validator:6.0.7.Final:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.hibernate.validator/hibernate-validator/jars/hibernate-validator-6.0.7.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.hibernate.validator/hibernate-validator/srcs/hibernate-validator-6.0.7.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="docker-scala-springboot-sbt_2.11"
+		revision="1.0.0"
+		status="integration"
+		publication="20200805122011"
+	>
+		<description>
+		docker-scala-springboot-sbt
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="container" visibility="private" description=""/>
+		<conf name="tomcat" visibility="private" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="docker-scala-springboot-sbt_2.11" type="war" ext="war" conf="compile,runtime,test,provided,optional,sources,docs,pom"/>
+		<artifact name="docker-scala-springboot-sbt_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="docker-scala-springboot-sbt_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="docker-scala-springboot-sbt_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="docker-scala-springboot-sbt_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.artima.supersafe" name="supersafe_2.11.7" rev="1.1.3" conf="plugin->default(compile)"/>
+		<dependency org="com.github.jsimone" name="webapp-runner" rev="8.5.9.0" transitive="false" conf="tomcat->default(compile)"/>
+		<dependency org="org.springframework.boot" name="spring-boot-starter" rev="2.0.0.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework.boot" name="spring-boot-starter-parent" rev="2.0.0.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework.boot" name="spring-boot-starter-web" rev="2.0.0.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework.boot" name="spring-boot-devtools" rev="2.0.0.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework.boot" name="spring-boot-starter-actuator" rev="2.0.0.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework.boot" name="spring-boot-starter-tomcat" rev="2.0.0.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.jolokia" name="jolokia-core" rev="1.3.6" conf="compile->default(compile)"/>
+		<dependency org="commons-collections" name="commons-collections" rev="3.1" conf="compile->default(compile)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile->default(compile)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.5" conf="compile->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="2.3.0" conf="compile->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.9.8" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-xml" rev="2.9.4" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" rev="2.9.4" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.11" rev="2.9.4" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.2.11" conf="compile->default(compile)"/>
+		<dependency org="org.json" name="json" rev="20140107" conf="compile->default(compile)"/>
+		<dependency org="org.apache.logging.log4j" name="log4j-flume-ng" rev="2.7" conf="compile->default(compile)"/>
+		<dependency org="com.github.docker-java" name="docker-java" rev="3.0.7" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.4" conf="test->default(compile)"/>
+		<dependency org="com.opencsv" name="opencsv" rev="4.1" conf="compile->default(compile)"/>
+		<dependency org="com.voodoodyne.jackson.jsog" name="jackson-jsog" rev="1.1" conf="compile->default(compile)"/>
+		<dependency org="org.springframework" name="spring-websocket" rev="4.1.9.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework" name="spring-messaging" rev="4.1.9.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="net.sf.json-lib" name="json-lib" rev="2.4" conf="compile->default(compile)">
+			<artifact name="json-lib" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="net.sf.ezmorph" name="ezmorph" rev="1.0.6" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>
