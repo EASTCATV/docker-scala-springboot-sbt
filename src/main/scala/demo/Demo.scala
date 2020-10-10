@@ -1,5 +1,6 @@
 package demo
 
+import demo.com.unionpay.acp.demo.DemoBase
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.web.bind.annotation.{CrossOrigin, GetMapping, RequestMapping, RestController}
 
@@ -16,12 +17,17 @@ class Demo {
   @Value( "${test.param}" )
   var param:String=_
 
+//  @Value( "${acpsdk.rootCert.path}" )
+//  var path:String=_
   @GetMapping(Array("/b"))
   def b(): String ={
     param
   }
-  @GetMapping(Array("/a"))
+  @GetMapping(Array("/v"))
   def a(): String ={
-    "a"
+    DemoBase.version
   }
+
+
+
 }

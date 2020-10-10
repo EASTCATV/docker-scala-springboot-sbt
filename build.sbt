@@ -1,4 +1,4 @@
-name := "docker-scala-springboot-sbt"
+name := "iptv_pay"
 version := "1.0.1"
 
 startYear := Some(2020)

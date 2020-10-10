@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
       <module name="docker-scala-springboot-sbt" target="1.8" />
+      <module name="yinlian_pay" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

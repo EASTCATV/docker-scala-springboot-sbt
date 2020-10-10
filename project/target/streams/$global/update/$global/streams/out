@@ -1,27 +1,27 @@
-[info] Updating {file:/Users/yang/new_source/docker-scala-springboot-sbt/project/}docker-scala-springboot-sbt-build...
-[debug] :: resolving dependencies :: default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/yang/new_source/Source/iptv/project/}iptv-build...
+[debug] :: resolving dependencies :: default#iptv-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#global-plugins;0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
 [debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
 [info] Resolving com.earldouglas#xsbt-web-plugin;3.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.earldouglas#xsbt-web-plugin;3.0.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.earldouglas#xsbt-web-plugin;3.0.0
 [debug] 	found com.earldouglas#xsbt-web-plugin;3.0.0 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
 [info] Resolving net.virtual-void#sbt-dependency-graph;0.8.2 ...
 [debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.8.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.8.2
 [debug] 	found net.virtual-void#sbt-dependency-graph;0.8.2 in sbt-chain
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -73,18 +73,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
 [info] Resolving se.marcuslonnberg#sbt-docker;1.4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: se.marcuslonnberg#sbt-docker;1.4.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: se.marcuslonnberg#sbt-docker;1.4.1
 [debug] 	found se.marcuslonnberg#sbt-docker;1.4.1 in sbt-chain
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -102,10 +102,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-native-packager;1.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.2.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;1.2.0
@@ -146,27 +146,27 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
 [info] Resolving com.artima.supersafe#sbtplugin;1.1.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.artima.supersafe#sbtplugin;1.1.3 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.artima.supersafe#sbtplugin;1.1.3
 [debug] 	found com.artima.supersafe#sbtplugin;1.1.3 in sbt-chain
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -207,14 +207,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -226,10 +226,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
@@ -246,24 +246,24 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -304,14 +304,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -323,10 +323,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
@@ -343,21 +343,21 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
@@ -1217,16 +1217,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -1267,14 +1267,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1286,10 +1286,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
@@ -1306,21 +1306,21 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -1955,15 +1955,15 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -2004,14 +2004,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -2023,10 +2023,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
@@ -2043,26 +2043,26 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;3.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
@@ -2103,14 +2103,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.8.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -2122,10 +2122,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
 [debug] == resolving dependencies se.marcuslonnberg#sbt-docker;1.4.1->org.apache.commons#commons-lang3;3.4 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->se.marcuslonnberg#sbt-docker;1.4.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
@@ -2142,21 +2142,21 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->com.artima.supersafe#sbtplugin;1.1.3 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -2791,18 +2791,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies for default#iptv-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default]
@@ -2820,8 +2820,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}
@@ -2834,11 +2834,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#iptv-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.earldouglas#xsbt-web-plugin;3.0.0!xsbt-web-plugin.jar
@@ -2908,19 +2908,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1294ms :: artifacts dl 34ms
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT compile produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-compile.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT runtime produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-runtime.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT test produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-test.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT provided produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-provided.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT optional produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-optional.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT compile-internal produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-compile-internal.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT runtime-internal produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-runtime-internal.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT test-internal produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-test-internal.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT plugin produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-plugin.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT sources produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-sources.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT docs produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-docs.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT pom produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-pom.xml
-[debug] 	report for default#docker-scala-springboot-sbt-build;0.1-SNAPSHOT scala-tool produced in /Users/yang/new_source/docker-scala-springboot-sbt/project/target/resolution-cache/reports/default-docker-scala-springboot-sbt-build-scala-tool.xml
-[debug] 	resolve done (1294ms resolve - 34ms download)
+[debug] :: resolution report :: resolve 570ms :: artifacts dl 20ms
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT compile produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-compile.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT runtime produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-runtime.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT test produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-test.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT provided produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-provided.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT optional produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-optional.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT compile-internal produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-compile-internal.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT runtime-internal produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-runtime-internal.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT test-internal produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-test-internal.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT plugin produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-plugin.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT sources produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-sources.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT docs produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-docs.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT pom produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-pom.xml
+[debug] 	report for default#iptv-build;0.1-SNAPSHOT scala-tool produced in /Users/yang/new_source/Source/iptv/project/target/resolution-cache/reports/default-iptv-build-scala-tool.xml
+[debug] 	resolve done (570ms resolve - 20ms download)
 [info] Done updating.
